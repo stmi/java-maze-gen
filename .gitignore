@@ -1,0 +1,11 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### Maven ###
+**/target
+
+### JQwik PBT ###
+.jqwik-database
