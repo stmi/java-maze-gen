@@ -178,10 +178,16 @@
           <execution>
             <goals><goal>descartes</goal></goals>
             <id>descartes</id>
+            <configuration>
+              <reportsDirectory>${project.build.directory}/pit-reports-descartes</reportsDirectory>
+            </configuration>
           </execution>
           <execution>
             <goals><goal>run</goal></goals>
             <id>pitest</id>
+            <configuration>
+              <reportsDirectory>${project.build.directory}/pit-reports-gregor</reportsDirectory>
+            </configuration>
           </execution>
         </executions>
       </plugin>

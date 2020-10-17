@@ -1,12 +1,10 @@
 package eu.wiktordolecki.maze;
 
 import lombok.Getter;
-import lombok.experimental.Accessors;
 
 import java.util.HashSet;
 import java.util.Set;
 
-@Accessors(fluent = true)
 @Getter
 class GridNode {
 
